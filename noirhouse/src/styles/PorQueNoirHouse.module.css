@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 80px 5%;
+    color: white;
+    background-color: black;
+    z-index: 3;
+
+}
+
+.textContainer {
+    flex: 1;
+    text-align: left;
+    max-width: 50%;
+    padding-left: 10%;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10%;
+
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #cfcfcf;
+    margin-bottom: 10px;
+}
+
+.imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+.colorImage {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+}

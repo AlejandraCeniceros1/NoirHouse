@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 80px 5%;
+    color: white;
+    background-color: black;
+    gap: 40px;
+    margin-top: -15%;
+}
+
+.imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+
+.bnwImage {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.testimonial {
+    flex: 2;
+    background: rgba(77, 15, 15, 0.05);
+    padding: 40px;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.quote {
+    font-size: 250px;
+    color: white;
+    margin: 0;
+    margin-bottom: -170px;
+    font-family: cursive;
+}
+
+.text {
+    font-size: 18px;
+    color: #cfcfcf;
+    line-height: 1.5;
+}
+
+.author {
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}

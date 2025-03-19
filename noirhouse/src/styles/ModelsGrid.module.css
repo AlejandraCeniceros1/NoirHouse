@@ -1,0 +1,65 @@
+.container {
+    text-align: center;
+    padding: 60px 5%;
+    background-color: black;
+    color: white;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.viewAll {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    margin-bottom: 30px;
+}
+
+.viewAll:hover {
+    background: white;
+    color: black;
+}
+
+/* Grid de modelos */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tarjeta de modelo */
+.card {
+    position: relative;
+    width: 100%;
+    height: 320px; /* Altura fija para uniformidad */
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111; /* Fondo para evitar espacios vacíos */
+}
+
+/* Imágenes y videos */
+.media {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Recorta las imágenes/videos manteniendo la proporción */
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto de hover */
+.card:hover .media {
+    transform: scale(1.05);
+}

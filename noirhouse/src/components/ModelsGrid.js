@@ -5,10 +5,10 @@ const models = [
   { src: "/videos/model2.mp4", type: "video" },
   { src: "/videos/model3.mp4", type: "video" },
   { src: "/videos/model4.mp4", type: "video" },
-  { src: "/images/model5.jpg", type: "image" },
-  { src: "/images/model6.jpg", type: "image" },
-  { src: "/images/model7.jpg", type: "image" },
-  { src: "/images/model8.jpg", type: "image" },
+  { src: "/videos/model4.mp4", type: "video" },
+  { src: "/videos/model4.mp4", type: "video" },
+  { src: "/videos/model4.mp4", type: "video" },
+  { src: "/videos/model4.mp4", type: "video" },
 ];
 
 export default function ModelsSection() {

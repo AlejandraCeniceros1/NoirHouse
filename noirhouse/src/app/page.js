@@ -3,6 +3,10 @@ import VideoBackground from "../components/VideoBackground";
 import PorQueNoirHouse from "../components/PorQueNoirHouse";
 import QuoteNoirHouse from "components/QuoteNoirHouse";
 import ModelsSection from "components/ModelsGrid";
+import FAQ from "components/Faq";
+import CallToAction from "components/CallToAction";
+import Footer from "components/Footer";
+
 
 
 export default function Home() {
@@ -28,6 +32,10 @@ export default function Home() {
       <PorQueNoirHouse />
       <QuoteNoirHouse/>
       <ModelsSection/>
+      <FAQ/>
+      <CallToAction/>
+      <Footer/>
+
 
 
     </div>
